@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F40EB972B4EEEDC0043C0BA /* custom button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB962B4EEEDC0043C0BA /* custom button.swift */; };
+		3F40EB992B4EF06A0043C0BA /* progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB982B4EF06A0043C0BA /* progressbar.swift */; };
+		3F40EB9B2B4EF1E50043C0BA /* answerrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB9A2B4EF1E50043C0BA /* answerrow.swift */; };
 		3FFCB88C2B4D9E9700FB3180 /* flag_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCB88B2B4D9E9700FB3180 /* flag_gameApp.swift */; };
 		3FFCB88E2B4D9E9700FB3180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCB88D2B4D9E9700FB3180 /* ContentView.swift */; };
 		3FFCB8902B4D9E9900FB3180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFCB88F2B4D9E9900FB3180 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F40EB962B4EEEDC0043C0BA /* custom button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "custom button.swift"; sourceTree = "<group>"; };
+		3F40EB982B4EF06A0043C0BA /* progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressbar.swift; sourceTree = "<group>"; };
+		3F40EB9A2B4EF1E50043C0BA /* answerrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerrow.swift; sourceTree = "<group>"; };
 		3FFCB8882B4D9E9700FB3180 /* flag game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flag game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFCB88B2B4D9E9700FB3180 /* flag_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flag_gameApp.swift; sourceTree = "<group>"; };
 		3FFCB88D2B4D9E9700FB3180 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 		3FFCB89A2B4DA48E00FB3180 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				3F40EB962B4EEEDC0043C0BA /* custom button.swift */,
+				3F40EB982B4EF06A0043C0BA /* progressbar.swift */,
+				3F40EB9A2B4EF1E50043C0BA /* answerrow.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -164,7 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F40EB992B4EF06A0043C0BA /* progressbar.swift in Sources */,
+				3F40EB9B2B4EF1E50043C0BA /* answerrow.swift in Sources */,
 				3FFCB89D2B4DA59800FB3180 /* Question.swift in Sources */,
+				3F40EB972B4EEEDC0043C0BA /* custom button.swift in Sources */,
 				3FFCB88E2B4D9E9700FB3180 /* ContentView.swift in Sources */,
 				3FFCB88C2B4D9E9700FB3180 /* flag_gameApp.swift in Sources */,
 			);
