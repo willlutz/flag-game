@@ -24,9 +24,9 @@ struct AnswerRow: View {
         }
         .padding () .frame (width: 300, alignment: .leading) .background(.white)
         .cornerRadius (10)
-        .onTapGesture {
-        isSelected = true
                 .shadow(color: isSelected ? (answer.isCorrect ? .green : .red) : .gray, radius: 5, x: 0.5, y: 0.5)
+                .onTapGesture {
+                isSelected = true
         }
     }
 }
