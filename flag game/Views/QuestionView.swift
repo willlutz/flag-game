@@ -35,7 +35,7 @@ struct question_view: View {
            
                 gameManager.goToNextQuestion()
                 } label: {
-                    custom_button(text: "Next", background: gameManager.answerSelected ? .yellow : .gray)
+                    CustomButton(text: "Next", background: gameManager.answerSelected ? .yellow : .gray)
                 }
                 .disabled(!gameManager.answerSelected)
                 Spacer ()
@@ -53,7 +53,7 @@ struct question_view: View {
                 Button {
                     gameManager.reset()
                 } label: {
-                    custom_button(text: "Play Again")
+                    CustomButton(text: "Play Again")
                 }
             })
                 .foregroundColor (.yellow)
