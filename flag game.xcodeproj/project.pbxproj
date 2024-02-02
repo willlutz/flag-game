@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F40EB972B4EEEDC0043C0BA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB962B4EEEDC0043C0BA /* CustomButton.swift */; };
-		3F40EB992B4EF06A0043C0BA /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB982B4EF06A0043C0BA /* Progressbar.swift */; };
+		3F40EB992B4EF06A0043C0BA /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB982B4EF06A0043C0BA /* ProgressBar.swift */; };
 		3F40EB9B2B4EF1E50043C0BA /* Answerrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB9A2B4EF1E50043C0BA /* Answerrow.swift */; };
 		3F7C7F0E2B5EC72D007E6D6F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C7F0D2B5EC72D007E6D6F /* GameManager.swift */; };
 		3FF5E23E2B50408D0069EC00 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5E23D2B50408D0069EC00 /* QuestionView.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		3F40EB962B4EEEDC0043C0BA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		3F40EB982B4EF06A0043C0BA /* Progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressbar.swift; sourceTree = "<group>"; };
+		3F40EB982B4EF06A0043C0BA /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		3F40EB9A2B4EF1E50043C0BA /* Answerrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answerrow.swift; sourceTree = "<group>"; };
 		3F7C7F0D2B5EC72D007E6D6F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		3FF5E23D2B50408D0069EC00 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3F40EB962B4EEEDC0043C0BA /* CustomButton.swift */,
-				3F40EB982B4EF06A0043C0BA /* Progressbar.swift */,
+				3F40EB982B4EF06A0043C0BA /* ProgressBar.swift */,
 				3F40EB9A2B4EF1E50043C0BA /* Answerrow.swift */,
 			);
 			path = Component;
@@ -182,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F40EB992B4EF06A0043C0BA /* Progressbar.swift in Sources */,
+				3F40EB992B4EF06A0043C0BA /* ProgressBar.swift in Sources */,
 				3F7C7F0E2B5EC72D007E6D6F /* GameManager.swift in Sources */,
 				3F40EB9B2B4EF1E50043C0BA /* Answerrow.swift in Sources */,
 				3FFCB89D2B4DA59800FB3180 /* Question.swift in Sources */,

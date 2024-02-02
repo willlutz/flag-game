@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Progressbar: View {
+struct ProgressBar: View {
     var progress: CGFloat
     var body: some View {
         ZStack(alignment: .leading) {
@@ -24,8 +24,8 @@ struct Progressbar: View {
     }
 }
 
-struct Progressbar_Previews: PreviewProvider {
+struct ProgressBar_Previews: PreviewProvider {
     static var previews: some View {
-        Progressbar(progress: 50)
+        ProgressBar(progress: 50)
     }
 }

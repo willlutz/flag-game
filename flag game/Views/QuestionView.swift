@@ -20,7 +20,7 @@ struct question_view: View {
                     Text ("\(gameManager.index) out of \(gameManager.questions.count)")
                         .foregroundColor(.yellow)
                 }
-                progressbar(progress: gameManager.progress)
+                ProgressBar(progress: gameManager.progress)
                 VStack (spacing: 10) {
                     Text ("Which country's flag is this?")
                     Image (gameManager.country)
