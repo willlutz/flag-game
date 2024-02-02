@@ -28,10 +28,10 @@ struct Data {
            "Sweden",
            "Ukraine",
            "United States",
-           "north korea",
-           "south korea",
-           "gaza",
-           "chicago",
-           "portugal"
+           "North korea",
+           "South korea",
+           "Gaza",
+           "Chicago",
+           "Portugal"
        ]
 }

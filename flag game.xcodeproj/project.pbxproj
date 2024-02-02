@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F40EB972B4EEEDC0043C0BA /* custom button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB962B4EEEDC0043C0BA /* custom button.swift */; };
-		3F40EB992B4EF06A0043C0BA /* progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB982B4EF06A0043C0BA /* progressbar.swift */; };
-		3F40EB9B2B4EF1E50043C0BA /* answerrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB9A2B4EF1E50043C0BA /* answerrow.swift */; };
+		3F40EB972B4EEEDC0043C0BA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB962B4EEEDC0043C0BA /* CustomButton.swift */; };
+		3F40EB992B4EF06A0043C0BA /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB982B4EF06A0043C0BA /* Progressbar.swift */; };
+		3F40EB9B2B4EF1E50043C0BA /* Answerrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EB9A2B4EF1E50043C0BA /* Answerrow.swift */; };
 		3F7C7F0E2B5EC72D007E6D6F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C7F0D2B5EC72D007E6D6F /* GameManager.swift */; };
 		3FF5E23E2B50408D0069EC00 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5E23D2B50408D0069EC00 /* QuestionView.swift */; };
 		3FF5E2402B5045020069EC00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5E23F2B5045020069EC00 /* File.swift */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F40EB962B4EEEDC0043C0BA /* custom button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "custom button.swift"; sourceTree = "<group>"; };
-		3F40EB982B4EF06A0043C0BA /* progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressbar.swift; sourceTree = "<group>"; };
-		3F40EB9A2B4EF1E50043C0BA /* answerrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerrow.swift; sourceTree = "<group>"; };
+		3F40EB962B4EEEDC0043C0BA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3F40EB982B4EF06A0043C0BA /* Progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressbar.swift; sourceTree = "<group>"; };
+		3F40EB9A2B4EF1E50043C0BA /* Answerrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answerrow.swift; sourceTree = "<group>"; };
 		3F7C7F0D2B5EC72D007E6D6F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		3FF5E23D2B50408D0069EC00 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		3FF5E23F2B5045020069EC00 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		3FFCB89A2B4DA48E00FB3180 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				3F40EB962B4EEEDC0043C0BA /* custom button.swift */,
-				3F40EB982B4EF06A0043C0BA /* progressbar.swift */,
-				3F40EB9A2B4EF1E50043C0BA /* answerrow.swift */,
+				3F40EB962B4EEEDC0043C0BA /* CustomButton.swift */,
+				3F40EB982B4EF06A0043C0BA /* Progressbar.swift */,
+				3F40EB9A2B4EF1E50043C0BA /* Answerrow.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -182,11 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F40EB992B4EF06A0043C0BA /* progressbar.swift in Sources */,
+				3F40EB992B4EF06A0043C0BA /* Progressbar.swift in Sources */,
 				3F7C7F0E2B5EC72D007E6D6F /* GameManager.swift in Sources */,
-				3F40EB9B2B4EF1E50043C0BA /* answerrow.swift in Sources */,
+				3F40EB9B2B4EF1E50043C0BA /* Answerrow.swift in Sources */,
 				3FFCB89D2B4DA59800FB3180 /* Question.swift in Sources */,
-				3F40EB972B4EEEDC0043C0BA /* custom button.swift in Sources */,
+				3F40EB972B4EEEDC0043C0BA /* CustomButton.swift in Sources */,
 				3FFCB88E2B4D9E9700FB3180 /* ContentView.swift in Sources */,
 				3FF5E2402B5045020069EC00 /* File.swift in Sources */,
 				3FF5E23E2B50408D0069EC00 /* QuestionView.swift in Sources */,
