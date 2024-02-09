@@ -31,7 +31,7 @@ struct Data {
            "North korea",
            "South korea",
            "Gaza",
-           "Chicago",
+           "Wales",
            "Portugal"
        ]
 }
